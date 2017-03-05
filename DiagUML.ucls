@@ -1,0 +1,711 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.1.9" icons="true" automaticImage="JPEG" always-add-relationships="false" 
+  generalizations="true" realizations="true" associations="true" dependencies="false" nesting-relationships="true" 
+  router="FAN">  
+  <class id="1" language="java" name="ants.ContainingAnt" project="ANTSvsBEES_Final" 
+    file="/ANTSvsBEES_Final/src/ants/ContainingAnt.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="171" width="155" x="1530" y="729"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="2" language="java" name="ants.SlowThrowerAnt" project="ANTSvsBEES_Final" 
+    file="/ANTSvsBEES_Final/src/ants/SlowThrowerAnt.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="99" width="136" x="218" y="1556"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="3" language="java" name="ants.Damaging" project="ANTSvsBEES_Final" 
+    file="/ANTSvsBEES_Final/src/ants/Damaging.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="99" width="122" x="232" y="990"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="4" language="java" name="ants.ScubaThrowerAnt" project="ANTSvsBEES_Final" 
+    file="/ANTSvsBEES_Final/src/ants/ScubaThrowerAnt.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="99" width="149" x="192" y="284"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="5" language="java" name="core.AntGame.ImageUtils" project="ANTSvsBEES_Final" 
+    file="/ANTSvsBEES_Final/src/core/AntGame.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="99" width="141" x="766" y="284"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="6" language="java" name="Audio.AudioPlayer" project="ANTSvsBEES_Final" 
+    file="/ANTSvsBEES_Final/src/Audio/AudioPlayer.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="153" width="120" x="1131" y="284"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="7" language="java" name="core.Hive" project="ANTSvsBEES_Final" file="/ANTSvsBEES_Final/src/core/Hive.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="297" width="203" x="2257" y="990"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="8" language="java" name="ants.Containing" project="ANTSvsBEES_Final" 
+    file="/ANTSvsBEES_Final/src/ants/Containing.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="117" width="155" x="1999" y="1327"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="9" language="java" name="core.AntGame.AnimPosition" project="ANTSvsBEES_Final" 
+    file="/ANTSvsBEES_Final/src/core/AntGame.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="243" width="144" x="947" y="284"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="10" language="java" name="core.Place" project="ANTSvsBEES_Final" 
+    file="/ANTSvsBEES_Final/src/core/Place.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="201" width="187" x="1762" y="729"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="11" language="java" name="core.AntGame" project="ANTSvsBEES_Final" 
+    file="/ANTSvsBEES_Final/src/core/AntGame.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="179" width="201" x="1469" y="37"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="12" language="java" name="core.NonRemovableAnt" project="ANTSvsBEES_Final" 
+    file="/ANTSvsBEES_Final/src/core/NonRemovableAnt.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="63" width="128" x="879" y="1556"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="13" language="java" name="ants.QueenAnt" project="ANTSvsBEES_Final" 
+    file="/ANTSvsBEES_Final/src/ants/QueenAnt.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="153" width="152" x="375" y="729"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="14" language="java" name="core.Bee" project="ANTSvsBEES_Final" file="/ANTSvsBEES_Final/src/core/Bee.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="189" width="136" x="2215" y="1327"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="15" language="java" name="ants.BodyguardAnt" project="ANTSvsBEES_Final" 
+    file="/ANTSvsBEES_Final/src/ants/BodyguardAnt.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="99" width="136" x="1486" y="990"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="16" language="java" name="ants.Larva" project="ANTSvsBEES_Final" 
+    file="/ANTSvsBEES_Final/src/ants/Larva.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="153" width="136" x="1291" y="284"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="17" language="java" name="ants.RootedAnt" project="ANTSvsBEES_Final" 
+    file="/ANTSvsBEES_Final/src/ants/RootedAnt.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="99" width="136" x="1471" y="1327"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="18" language="java" name="ants.AmphibiousAnt" project="ANTSvsBEES_Final" 
+    file="/ANTSvsBEES_Final/src/ants/AmphibiousAnt.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="117" width="136" x="591" y="1327"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="19" language="java" name="core.AntsVsSomeBees" project="ANTSvsBEES_Final" 
+    file="/ANTSvsBEES_Final/src/core/AntsVsSomeBees.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="207" width="127" x="932" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="20" language="java" name="ants.NinjaAnt" project="ANTSvsBEES_Final" 
+    file="/ANTSvsBEES_Final/src/ants/NinjaAnt.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="99" width="136" x="1823" y="1327"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="21" language="java" name="core.Insect" project="ANTSvsBEES_Final" 
+    file="/ANTSvsBEES_Final/src/core/Insect.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="405" width="196" x="1802" y="284"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="22" language="java" name="core.Honey" project="ANTSvsBEES_Final" 
+    file="/ANTSvsBEES_Final/src/core/Honey.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="81" width="122" x="2032" y="990"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="23" language="java" name="ants.ThrowerAnt" project="ANTSvsBEES_Final" 
+    file="/ANTSvsBEES_Final/src/ants/ThrowerAnt.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="135" width="136" x="218" y="1327"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="24" language="java" name="core.StrongBee" project="ANTSvsBEES_Final" 
+    file="/ANTSvsBEES_Final/src/core/StrongBee.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="117" width="120" x="2215" y="1556"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="25" language="java" name="ants.HungryAnt" project="ANTSvsBEES_Final" 
+    file="/ANTSvsBEES_Final/src/ants/HungryAnt.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="189" width="136" x="1119" y="1327"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="26" language="java" name="core.QueenPlace" project="ANTSvsBEES_Final" 
+    file="/ANTSvsBEES_Final/src/core/QueenPlace.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="117" width="149" x="1843" y="990"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="27" language="java" name="ants.HoneyAnt" project="ANTSvsBEES_Final" 
+    file="/ANTSvsBEES_Final/src/ants/HoneyAnt.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="153" width="136" x="767" y="1327"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="28" language="java" name="core.AntColony" project="ANTSvsBEES_Final" 
+    file="/ANTSvsBEES_Final/src/core/AntColony.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="405" width="211" x="1509" y="284"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="29" language="java" name="menu.menu" project="ANTSvsBEES_Final" file="/ANTSvsBEES_Final/src/menu/menu.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="135" width="113" x="410" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="30" language="java" name="ants.HarvesterAnt" project="ANTSvsBEES_Final" 
+    file="/ANTSvsBEES_Final/src/ants/HarvesterAnt.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="99" width="136" x="943" y="1327"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="31" language="java" name="ants.FireAnt" project="ANTSvsBEES_Final" 
+    file="/ANTSvsBEES_Final/src/ants/FireAnt.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="117" width="136" x="415" y="1327"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="32" language="java" name="ants.NukeAnt" project="ANTSvsBEES_Final" 
+    file="/ANTSvsBEES_Final/src/ants/NukeAnt.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="99" width="136" x="1295" y="1327"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="33" language="java" name="ants.ShortThrowerAnt" project="ANTSvsBEES_Final" 
+    file="/ANTSvsBEES_Final/src/ants/ShortThrowerAnt.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="117" width="136" x="42" y="1556"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="34" language="java" name="ants.StunThrowerAnt" project="ANTSvsBEES_Final" 
+    file="/ANTSvsBEES_Final/src/ants/StunThrowerAnt.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="99" width="136" x="570" y="1556"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="35" language="java" name="ants.WallAnt" project="ANTSvsBEES_Final" 
+    file="/ANTSvsBEES_Final/src/ants/WallAnt.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="99" width="136" x="1647" y="1327"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="36" language="java" name="core.Water" project="ANTSvsBEES_Final" 
+    file="/ANTSvsBEES_Final/src/core/Water.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="81" width="120" x="1683" y="990"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="37" language="java" name="ants.LongThrowerAnt" project="ANTSvsBEES_Final" 
+    file="/ANTSvsBEES_Final/src/ants/LongThrowerAnt.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="117" width="136" x="394" y="1556"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="38" language="java" name="core.Ant" project="ANTSvsBEES_Final" file="/ANTSvsBEES_Final/src/core/Ant.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="297" width="176" x="1270" y="990"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <nesting id="39">    
+    <end type="SOURCE" refId="11"/>    
+    <end type="TARGET" refId="9"/>  
+  </nesting>  
+  <generalization id="40">    
+    <bendpoint x="201" y="729"/>    
+    <bendpoint x="201" y="990"/>    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="23"/>  
+  </generalization>  
+  <realization id="41">    
+    <end type="SOURCE" refId="17"/>    
+    <end type="TARGET" refId="12"/>  
+  </realization>  
+  <realization id="42">    
+    <bendpoint x="384" y="990"/>    
+    <bendpoint x="384" y="1327"/>    
+    <end type="SOURCE" refId="13"/>    
+    <end type="TARGET" refId="12"/>  
+  </realization>  
+  <generalization id="43">    
+    <end type="SOURCE" refId="17"/>    
+    <end type="TARGET" refId="38"/>  
+  </generalization>  
+  <generalization id="44">    
+    <end type="SOURCE" refId="13"/>    
+    <end type="TARGET" refId="4"/>  
+  </generalization>  
+  <association id="45">    
+    <end type="SOURCE" refId="7" navigable="false">      
+      <attribute id="46" name="waves"/>      
+      <multiplicity id="47" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="14" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="48">    
+    <end type="SOURCE" refId="28" navigable="false">      
+      <attribute id="49" name="queenPlace"/>      
+      <multiplicity id="50" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="10" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="51">    
+    <bendpoint x="2184" y="990"/>    
+    <bendpoint x="2184" y="1327"/>    
+    <end type="SOURCE" refId="10" navigable="false">      
+      <attribute id="52" name="strongbees"/>      
+      <multiplicity id="53" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="24" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="54">    
+    <bendpoint x="2226" y="990"/>    
+    <bendpoint x="2226" y="729"/>    
+    <end type="SOURCE" refId="14"/>    
+    <end type="TARGET" refId="21"/>  
+  </generalization>  
+  <realization id="55">    
+    <bendpoint x="1652" y="990"/>    
+    <end type="SOURCE" refId="1"/>    
+    <end type="TARGET" refId="8"/>  
+  </realization>  
+  <generalization id="56">    
+    <end type="SOURCE" refId="36"/>    
+    <end type="TARGET" refId="10"/>  
+  </generalization>  
+  <association id="57">    
+    <end type="SOURCE" refId="28" navigable="false">      
+      <attribute id="58" name="places"/>      
+      <multiplicity id="59" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="10" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="60">    
+    <end type="SOURCE" refId="11" navigable="false">      
+      <attribute id="61" name="bgMusic"/>      
+      <multiplicity id="62" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="6" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="63">    
+    <end type="SOURCE" refId="37"/>    
+    <end type="TARGET" refId="23"/>  
+  </generalization>  
+  <association id="64">    
+    <end type="SOURCE" refId="11" navigable="false">      
+      <attribute id="65" name="allStrongBeePositions"/>      
+      <multiplicity id="66" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="9" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="67">    
+    <end type="SOURCE" refId="1" navigable="false">      
+      <attribute id="68" name="antCont"/>      
+      <multiplicity id="69" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="38" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="70">    
+    <end type="SOURCE" refId="10" navigable="false">      
+      <attribute id="71" name="ant"/>      
+      <multiplicity id="72" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="38" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="73">    
+    <bendpoint x="1478" y="284"/>    
+    <bendpoint x="1478" y="729"/>    
+    <end type="SOURCE" refId="11" navigable="false">      
+      <attribute id="74" name="antSelectorAreas"/>      
+      <multiplicity id="75" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="38" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="76">    
+    <end type="SOURCE" refId="31"/>    
+    <end type="TARGET" refId="38"/>  
+  </generalization>  
+  <association id="77">    
+    <bendpoint x="2205" y="990"/>    
+    <end type="SOURCE" refId="10" navigable="false">      
+      <attribute id="78" name="bees"/>      
+      <multiplicity id="79" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="14" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="80">    
+    <end type="SOURCE" refId="13"/>    
+    <end type="TARGET" refId="3"/>  
+  </realization>  
+  <association id="81">    
+    <end type="SOURCE" refId="10" navigable="false">      
+      <attribute id="82" name="entrance"/>      
+      <multiplicity id="83" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="10" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <nesting id="84">    
+    <end type="SOURCE" refId="11"/>    
+    <end type="TARGET" refId="5"/>  
+  </nesting>  
+  <generalization id="85">    
+    <end type="SOURCE" refId="24"/>    
+    <end type="TARGET" refId="14"/>  
+  </generalization>  
+  <association id="86">    
+    <bendpoint x="1750" y="284"/>    
+    <end type="SOURCE" refId="11" navigable="false">      
+      <attribute id="87" name="tunnelEnd"/>      
+      <multiplicity id="88" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="10" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="89">    
+    <bendpoint x="1457" y="284"/>    
+    <bendpoint x="1457" y="729"/>    
+    <end type="SOURCE" refId="11" navigable="false">      
+      <attribute id="90" name="selectedAnt"/>      
+      <multiplicity id="91" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="38" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="92">    
+    <end type="SOURCE" refId="32"/>    
+    <end type="TARGET" refId="38"/>  
+  </generalization>  
+  <generalization id="93">    
+    <end type="SOURCE" refId="22"/>    
+    <end type="TARGET" refId="10"/>  
+  </generalization>  
+  <generalization id="94">    
+    <end type="SOURCE" refId="20"/>    
+    <end type="TARGET" refId="38"/>  
+  </generalization>  
+  <association id="95">    
+    <bendpoint x="1771" y="284"/>    
+    <end type="SOURCE" refId="11" navigable="false">      
+      <attribute id="96" name="colonyAreas"/>      
+      <multiplicity id="97" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="10" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="98">    
+    <end type="SOURCE" refId="33"/>    
+    <end type="TARGET" refId="23"/>  
+  </generalization>  
+  <generalization id="99">    
+    <end type="SOURCE" refId="1"/>    
+    <end type="TARGET" refId="38"/>  
+  </generalization>  
+  <generalization id="100">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="23"/>  
+  </generalization>  
+  <association id="101">    
+    <end type="SOURCE" refId="11" navigable="false">      
+      <attribute id="102" name="colony"/>      
+      <multiplicity id="103" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="28" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="104">    
+    <bendpoint x="1300" y="729"/>    
+    <end type="SOURCE" refId="16"/>    
+    <end type="TARGET" refId="38"/>  
+  </generalization>  
+  <generalization id="105">    
+    <end type="SOURCE" refId="25"/>    
+    <end type="TARGET" refId="38"/>  
+  </generalization>  
+  <generalization id="106">    
+    <end type="SOURCE" refId="30"/>    
+    <end type="TARGET" refId="38"/>  
+  </generalization>  
+  <generalization id="107">    
+    <end type="SOURCE" refId="35"/>    
+    <end type="TARGET" refId="38"/>  
+  </generalization>  
+  <association id="108">    
+    <end type="SOURCE" refId="10" navigable="false">      
+      <attribute id="109" name="exit"/>      
+      <multiplicity id="110" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="10" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="111">    
+    <end type="SOURCE" refId="15"/>    
+    <end type="TARGET" refId="8"/>  
+  </realization>  
+  <realization id="112">    
+    <end type="SOURCE" refId="32"/>    
+    <end type="TARGET" refId="12"/>  
+  </realization>  
+  <association id="113">    
+    <bendpoint x="2381" y="1327"/>    
+    <end type="SOURCE" refId="7" navigable="false">      
+      <attribute id="114" name="strongwaves"/>      
+      <multiplicity id="115" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="24" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="116">    
+    <end type="SOURCE" refId="34"/>    
+    <end type="TARGET" refId="23"/>  
+  </generalization>  
+  <association id="117">    
+    <end type="SOURCE" refId="28" navigable="false">      
+      <attribute id="118" name="beeEntrances"/>      
+      <multiplicity id="119" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="10" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="120">    
+    <end type="SOURCE" refId="16" navigable="false">      
+      <attribute id="121" name="pl"/>      
+      <multiplicity id="122" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="10" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="123">    
+    <end type="SOURCE" refId="26"/>    
+    <end type="TARGET" refId="10"/>  
+  </generalization>  
+  <association id="124">    
+    <end type="SOURCE" refId="11" navigable="false">      
+      <attribute id="125" name="allBeePositions"/>      
+      <multiplicity id="126" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="9" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="127">    
+    <bendpoint x="1499" y="729"/>    
+    <end type="SOURCE" refId="38"/>    
+    <end type="TARGET" refId="21"/>  
+  </generalization>  
+  <association id="128">    
+    <end type="SOURCE" refId="21" navigable="false">      
+      <attribute id="129" name="place"/>      
+      <multiplicity id="130" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="10" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="131">    
+    <end type="SOURCE" refId="23"/>    
+    <end type="TARGET" refId="38"/>  
+  </generalization>  
+  <association id="132">    
+    <bendpoint x="2247" y="284"/>    
+    <bendpoint x="2247" y="729"/>    
+    <end type="SOURCE" refId="11" navigable="false">      
+      <attribute id="133" name="hive"/>      
+      <multiplicity id="134" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="7" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="135">    
+    <end type="SOURCE" refId="7"/>    
+    <end type="TARGET" refId="10"/>  
+  </generalization>  
+  <association id="136">    
+    <end type="SOURCE" refId="13" navigable="false">      
+      <attribute id="137" name="boost"/>      
+      <multiplicity id="138" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="38" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="139">    
+    <end type="SOURCE" refId="27"/>    
+    <end type="TARGET" refId="38"/>  
+  </generalization>  
+  <generalization id="140">    
+    <end type="SOURCE" refId="18"/>    
+    <end type="TARGET" refId="38"/>  
+  </generalization>  
+  <generalization id="141">    
+    <end type="SOURCE" refId="15"/>    
+    <end type="TARGET" refId="1"/>  
+  </generalization>  
+  <association id="142">    
+    <end type="SOURCE" refId="11" navigable="false">      
+      <attribute id="143" name="leaves"/>      
+      <multiplicity id="144" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="9" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="145">    
+    <bendpoint x="1279" y="729"/>    
+    <end type="SOURCE" refId="16" navigable="false">      
+      <attribute id="146" name="a"/>      
+      <multiplicity id="147" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="38" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <classifier-display autosize="true" stereotype="false" package="false" initial-value="true" signature="false" 
+    sort-features="false" accessors="true" visibility="false">    
+    <attributes public="false" package="false" protected="false" private="false" static="false"/>    
+    <operations public="false" package="false" protected="false" private="false" static="false"/>  
+  </classifier-display>  
+  <association-display labels="false" multiplicity="false"/>
+</class-diagram>
