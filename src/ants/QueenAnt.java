@@ -9,7 +9,7 @@ import core.Bee;
 import core.NonRemovableAnt;
 import core.Place;
 
-//Inspiré de https://fr.wikipedia.org/wiki/Singleton_(patron_de_conception)
+//Inspirï¿½ de https://fr.wikipedia.org/wiki/Singleton_(patron_de_conception)
 
 public final class QueenAnt extends ScubaThrowerAnt implements Damaging, NonRemovableAnt {
 	
@@ -36,7 +36,7 @@ public final class QueenAnt extends ScubaThrowerAnt implements Damaging, NonRemo
 	}
 	
 	/**
-     * Méthode permettant de renvoyer une instance de la classe Singleton
+     * Mï¿½thode permettant de renvoyer une instance de la classe Singleton
      * @return Retourne l'instance du singleton.
      */
 
@@ -57,7 +57,7 @@ public final class QueenAnt extends ScubaThrowerAnt implements Damaging, NonRemo
 			//Attaque:
 			Bee target = getTarget();
 			if (target != null) {
-				AudioPlayer bgMusic = new AudioPlayer("swing.wav"); //Mettre le fichier dans ANTSvsBEES\bin\Audio
+				AudioPlayer bgMusic = new AudioPlayer("/res/swing.wav"); //Mettre le fichier dans ANTSvsBEES\bin\Audio
 				bgMusic.play();
 				target.reduceArmor(this.getDamage());
 			}
@@ -82,7 +82,7 @@ public final class QueenAnt extends ScubaThrowerAnt implements Damaging, NonRemo
 			}
 			System.out.println(nbQueen);
 		}
-		else { //Si il y a plus d'une reine, on la détruit et on décrémente la variable nbQueen. L'imposteur ne peut effectuer les actions de la vraire reine.
+		else { //Si il y a plus d'une reine, on la dï¿½truit et on dï¿½crï¿½mente la variable nbQueen. L'imposteur ne peut effectuer les actions de la vraire reine.
 			reduceArmor(1);
 			nbQueen--;
 		}

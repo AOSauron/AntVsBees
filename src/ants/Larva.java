@@ -6,10 +6,10 @@ import core.Ant;
 import core.AntColony;
 import core.Place;
 
-//Pour générer un nombre aléatoire :http://www.journaldunet.com/developpeur/pratique/developpement/12315/comment-generer-un-nombre-aleatoire-random-en-java-compris-entre-deux-chiffres.html
+//Pour gï¿½nï¿½rer un nombre alï¿½atoire :http://www.journaldunet.com/developpeur/pratique/developpement/12315/comment-generer-un-nombre-aleatoire-random-en-java-compris-entre-deux-chiffres.html
 
-//Larve ne faisant rien pendant 4 tours jusqu'à faire qqchose ;) on ne peut pas la protéger par une body.
-//11% de chance d'obtenir des Ant classiques (9 possibles) offensives/défensives, et 1% de chance d'obtenir une NukeAnt!
+//Larve ne faisant rien pendant 4 tours jusqu'ï¿½ faire qqchose ;) on ne peut pas la protï¿½ger par une body.
+//11% de chance d'obtenir des Ant classiques (9 possibles) offensives/dï¿½fensives, et 1% de chance d'obtenir une NukeAnt!
 
 public class Larva extends Ant {
 
@@ -64,7 +64,7 @@ public class Larva extends Ant {
 			pl=place;
 			place.removeInsect(this);
 			
-			AudioPlayer bgMusic = new AudioPlayer("larvevo.wav"); //Mettre le fichier dans ANTSvsBEES\bin\Audio
+			AudioPlayer bgMusic = new AudioPlayer("/res/larvevo.wav"); //Mettre le fichier dans ANTSvsBEES\bin\Audio
 			bgMusic.play();
 			
 			pl.addInsect(a);

@@ -69,9 +69,9 @@ public class AntGame extends JPanel implements ActionListener, MouseListener {
 	// other images (stored as member variables)
 	private final Image TUNNEL_IMAGE = ImageUtils.loadImage("img/tunnel.gif");
 	private final Image BEE_IMAGE = ImageUtils.loadImage("img/bee.gif");
-	
+
 	private final Image StrongBee_IMAGE = ImageUtils.loadImage("img/StrongBee.gif");  //Ajout pour la Strongbee
-	
+
 	private final Image REMOVER_IMAGE = ImageUtils.loadImage("img/remover.gif");
 
 	// positioning constants
@@ -112,13 +112,13 @@ public class AntGame extends JPanel implements ActionListener, MouseListener {
 	 * @param hive
 	 *            The hive (and attack plan) for the game
 	 */
-	
+
 	//Music
-	
-	private AudioPlayer bgMusic; //Ajout de bgMusic pour le backfrontMusic	
-	
+
+	private AudioPlayer bgMusic; //Ajout de bgMusic pour le backfrontMusic
+
 	public AntGame (AntColony colony, Hive hive) {
-		
+
 		// game init stuff
 		this.colony = colony;
 		this.hive = hive;
@@ -161,12 +161,12 @@ public class AntGame extends JPanel implements ActionListener, MouseListener {
 		frame.add(this);
 		frame.pack();
 		frame.setVisible(true);
-		
+
 		//Ajout de son en Background
-		AudioPlayer bgMusic = new AudioPlayer("sound.wav"); //Mettre le fichier dans ANTSvsBEES\bin\Audio
+		AudioPlayer bgMusic = new AudioPlayer("/res/sound.wav"); //Mettre le fichier dans ANTSvsBEES\bin\Audio
 		bgMusic.play();
-		System.out.println("Son ok");
-	
+		//System.out.println("Son ok");
+
 	}
 
 	@Override
@@ -195,8 +195,8 @@ public class AntGame extends JPanel implements ActionListener, MouseListener {
 			g2d.setColor(Color.RED);
 			g2d.drawString("CLICK TO START", 350, 550);
 		}
-		
-		
+
+
 	}
 
 	/**
@@ -236,7 +236,7 @@ public class AntGame extends JPanel implements ActionListener, MouseListener {
 			for (Bee bee : invaders) {
 				startAnimation(bee);
 			}
-			
+
 			StrongBee[] stronginvaders = hive.invadeSB(colony, turn);  ////
 			for (StrongBee strongbee : stronginvaders) {
 				startAnimationSB(strongbee);
@@ -299,7 +299,7 @@ public class AntGame extends JPanel implements ActionListener, MouseListener {
 		{
 			// check for end condition before proceeding
 			if (colony.queenHasBees()) { // we lost!   //Put an "or" condition if the QueenAnt and a Bee are in the same place
-				AudioPlayer bgMusic = new AudioPlayer("laugh.wav"); //Mettre le fichier dans ANTSvsBEES\bin\Audio
+				AudioPlayer bgMusic = new AudioPlayer("/res/laugh.wav"); //Mettre le fichier dans ANTSvsBEES\bin\Audio
 				bgMusic.play();
 				JOptionPane.showMessageDialog(this, "The Queen has perished! Please try again.", "Bzzzzz!", JOptionPane.PLAIN_MESSAGE);
 				System.exit(0); // quit
@@ -334,10 +334,10 @@ public class AntGame extends JPanel implements ActionListener, MouseListener {
 				}
 				else {
 					Ant deployable = buildAnt(selectedAnt.getClass().getName()); // make a new ant of the appropriate type
-					/////// 
+					///////
 //					if(selectedAnt.watersafe == false && Place == Water ) {
-//						
-						
+//
+
 					//}
 					colony.deployAnt(colonyAreas.get(rect), deployable);
 					return; // stop searching
@@ -354,7 +354,7 @@ public class AntGame extends JPanel implements ActionListener, MouseListener {
 		}
 
 		// check if remover
-		
+
 		//Ici qu'il faudrait modifier pour n'avoir qu'une reine (?)
 		if (removerArea.contains(pt)) {
 			selectedAnt = null; // mark as such
@@ -373,7 +373,7 @@ public class AntGame extends JPanel implements ActionListener, MouseListener {
 			}
 		}
 	}
-	
+
 	private void startAnimationSB (StrongBee b) {
 		AnimPosition anim = allStrongBeePositions.get(b);
 		if (anim.framesLeft == 0) // if not already animating
@@ -416,22 +416,22 @@ public class AntGame extends JPanel implements ActionListener, MouseListener {
 				g2d.setColor(Color.BLUE);  //Carree bleu
 				g2d.draw(rect);  //Border box (l.345)
 				g2d.fill(rect);
-								
+
 			}
 			if (place instanceof Honey) {
 				g2d.setColor(Color.ORANGE);  //Carre orange
 				g2d.draw(rect);  //Border box (l.345)
 				g2d.fill(rect);
-								
+
 			}
-			
+
 			//Bien mettre 347-351 avant 356-358, ordre de dessin, de superposition
-			
+
 			if (place != tunnelEnd) {
 				g2d.drawImage(TUNNEL_IMAGE, rect.x, rect.y, null); // decorative image
-			
+
 				}
-			
+
 			Ant ant = place.getAnt();
 			if (ant != null) { // draw the ant if we have one
 				if (ant instanceof ContainingAnt && (((ContainingAnt) ant).ObtainInsect() != null) ) { //Voir code de guillaume il a ajout� && ((Containing) ant).getContenantInsect() != null)
@@ -442,8 +442,8 @@ public class AntGame extends JPanel implements ActionListener, MouseListener {
 				g2d.drawImage(img, rect.x + PLACE_PADDING.width, rect.y + PLACE_PADDING.height, null);
 				}
 
-		}   
-		
+		}
+
 	}
 
 	// Draws all the Bees (included deceased) in their current locations
@@ -467,10 +467,10 @@ public class AntGame extends JPanel implements ActionListener, MouseListener {
 			g2d.fill(leaf);
 		}
 	}
-	
 
-	
-	
+
+
+
 
 	/**
 	 * Generates the geometric shape to draw for a leaf
@@ -513,7 +513,7 @@ public class AntGame extends JPanel implements ActionListener, MouseListener {
 				g2d.setColor(Color.GRAY);
 			}
 			else if (ant == selectedAnt) {
-				g2d.setColor(Color.ORANGE); 
+				g2d.setColor(Color.ORANGE);
 			}
 			g2d.fill(rect);
 
@@ -585,7 +585,7 @@ public class AntGame extends JPanel implements ActionListener, MouseListener {
 			allStrongBeePositions.put(strongbees[i], new AnimPosition((int) (HIVE_POS.x + (20 * Math.random() - 10)), (int) (HIVE_POS.y + (100 * Math.random() - 50))));
 		}
 	}
-	
+
 
 	/**
 	 * Initializes the Colony graphics for the game.

@@ -59,7 +59,7 @@ public class FireAnt extends Ant {
 			super.reduceArmor(amount);
 			if (this.getArmor() <=0) {
 				if (targets.length>0 && this.getArmor()==0) {
-					AudioPlayer bgMusic = new AudioPlayer("fire.wav"); //Mettre le fichier dans ANTSvsBEES\bin\Audio
+					AudioPlayer bgMusic = new AudioPlayer("/res/fire.wav"); //Mettre le fichier dans ANTSvsBEES\bin\Audio
 					bgMusic.play();
 					for (Bee b : targets) {
 						b.reduceArmor(this.getDamage());

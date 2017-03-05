@@ -7,7 +7,7 @@ import core.Bee;
 
 public class ThrowerAnt extends Ant {
 	public ThrowerAnt () {
-		super(1,4);					
+		super(1,4);
 		setDamage(1);
 	}
 
@@ -22,16 +22,14 @@ public class ThrowerAnt extends Ant {
 
 	@Override
 	public void action (AntColony colony) {
-		
+
 		Bee target = getTarget();
 		if (target != null) {
 			//On met un son de jet de feuille
-			AudioPlayer bgMusic = new AudioPlayer("swing.wav"); //Mettre le fichier dans ANTSvsBEES\bin\Audio
+			AudioPlayer bgMusic = new AudioPlayer("/res/swing.wav"); //Mettre le fichier dans ANTSvsBEES\bin\Audio
 			bgMusic.play();
 			target.reduceArmor(this.getDamage());
 		}
 	}
 
 }
-
-

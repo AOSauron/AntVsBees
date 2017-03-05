@@ -13,7 +13,7 @@ public class LongThrowerAnt extends ThrowerAnt {
 	}
 
 	public Bee getTarget () {
-		return place.getClosestBee(4, AntColony.TUNNELENGTH); // lance feuilles aux abeilles à au moins 4 places jusqu'à la taille du tunnel
+		return place.getClosestBee(4, AntColony.TUNNELENGTH); // lance feuilles aux abeilles ï¿½ au moins 4 places jusqu'ï¿½ la taille du tunnel
 
 	}
 
@@ -22,7 +22,7 @@ public class LongThrowerAnt extends ThrowerAnt {
 		Bee target = getTarget();
 		if (target != null) {
 			//On met un son de jet de feuille
-			AudioPlayer bgMusic = new AudioPlayer("swing.wav"); //Mettre le fichier dans ANTSvsBEES\bin\Audio
+			AudioPlayer bgMusic = new AudioPlayer("/res/swing.wav"); //Mettre le fichier dans ANTSvsBEES\bin\Audio
 			bgMusic.play();
 			target.reduceArmor(this.getDamage());
 
